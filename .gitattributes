@@ -1,0 +1,37 @@
+# Autodetect text files
+* text=auto
+
+# ...Unless the name matches the following
+# overriding patterns
+
+# Definitively text files
+*.txt text
+*.md text
+*.json text
+*.js text
+*.yml text
+*.css text
+*.html text
+*.cs text
+*.py text
+*.swift text
+*.ps1 text
+*.sh text
+*.gradle text
+*.groovy text
+*.java text
+*.xml text
+*.scala text
+*.cmd text
+*.key text
+*.pem text
+*.markdown text
+*.coffee text
+
+# Ensure those won't be messed up with
+*.jpg binary
+*.bin binary
+*.data binary
+*.png binary
+*.jar binary
+*.dat binary
